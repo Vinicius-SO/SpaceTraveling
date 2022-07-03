@@ -1,0 +1,114 @@
+{
+  "slices": {
+    "components": {
+      "post": {
+        "library": "slices",
+        "id": "post",
+        "name": "Post",
+        "description": "Post",
+        "model": {
+          "id": "post",
+          "type": "SharedSlice",
+          "name": "Post",
+          "description": "Post",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Post",
+              "primary": {
+                "UID": {
+                  "type": "Text",
+                  "config": {
+                    "label": "slug",
+                    "placeholder": ""
+                  }
+                },
+                "Title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": ""
+                  }
+                },
+                "Subtitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Subtitle",
+                    "placeholder": ""
+                  }
+                },
+                "Author": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Author",
+                    "placeholder": ""
+                  }
+                },
+                "Banner": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Banner",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "Content": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Content",
+                    "select": "document"
+                  }
+                },
+                "heading": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Heading",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "post",
+            "items": [],
+            "primary": {
+              "UID": "innovate compelling schemas",
+              "Title": "recontextualize rich methodologies",
+              "Subtitle": "implement vertical users",
+              "Author": "disintermediate web-enabled web-readiness",
+              "Banner": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
+              },
+              "Content": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              },
+              "heading": "leverage collaborative systems"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

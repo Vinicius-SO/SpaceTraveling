@@ -1,0 +1,9 @@
+{
+  "slices": {
+    "Post": {
+      "default": {
+        "primary": {}
+      }
+    }
+  }
+}
