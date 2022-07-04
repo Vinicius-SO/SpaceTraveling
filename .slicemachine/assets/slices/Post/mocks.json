@@ -5,10 +5,10 @@
     "slice_type": "post",
     "items": [],
     "primary": {
-      "UID": "innovate compelling schemas",
-      "Title": "recontextualize rich methodologies",
-      "Subtitle": "implement vertical users",
-      "Author": "disintermediate web-enabled web-readiness",
+      "UID": "redefine innovative eyeballs",
+      "Title": "strategize compelling metrics",
+      "Subtitle": "expedite web-enabled initiatives",
+      "Author": "recontextualize dot-com web-readiness",
       "Banner": {
         "dimensions": {
           "width": 900,
@@ -16,13 +16,108 @@
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
       },
       "Content": {
         "link_type": "Web",
-        "url": "http://google.com"
+        "url": "https://slicemachine.dev"
       },
-      "heading": "leverage collaborative systems"
+      "heading": "expedite clicks-and-mortar initiatives",
+      "Body": [
+        {
+          "type": "paragraph",
+          "text": "Minim deserunt incididunt duis non voluptate sint. Culpa occaecat ea deserunt culpa fugiat culpa eiusmod labore consequat Lorem irure magna excepteur nisi. Anim irure nostrud duis ut qui mollit nostrud reprehenderit est anim.",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "variation": "post",
+    "name": "Post",
+    "slice_type": "post",
+    "items": [
+      {
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Adipisicing fugiat Lorem eu consectetur deserunt ex.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Velit esse ex aute id ea ad culpa. Id occaecat non nisi commodo anim eu occaecat non cillum. Culpa anim anim anim nostrud exercitation ea aute.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Dolor nisi ullamco non exercitation est Lorem velit minim. Deserunt officia aliqua ea occaecat aliquip non.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Sit laborum ea dolore aute sunt sunt ut do culpa aliquip commodo id.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Consectetur officia consectetur ex duis sunt culpa nostrud eu ut duis commodo. Duis ea in est enim ipsum labore veniam aliqua. Ad cupidatat deserunt nulla sint non ullamco sint nostrud eu voluptate ullamco.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Aliqua sunt ipsum sunt ea irure dolore ut excepteur sit. Nostrud fugiat ipsum consectetur quis culpa incididunt cupidatat. Id do sint ipsum sit est pariatur cillum eu occaecat.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "UID": "transition compelling functionalities",
+      "Title": "embrace strategic e-commerce",
+      "Subtitle": "optimize clicks-and-mortar solutions",
+      "Author": "implement leading-edge web-readiness",
+      "Banner": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=900&h=500&fit=crop"
+      },
+      "Content": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "heading": "target cutting-edge vortals",
+      "Body": [
+        {
+          "type": "paragraph",
+          "text": "Eiusmod consectetur occaecat elit tempor eu occaecat.",
+          "spans": []
+        }
+      ]
     }
   }
 ]

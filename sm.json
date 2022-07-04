@@ -4,5 +4,6 @@
   "libraries": [
     "@/slices"
   ],
-  "framework": "previousNext"
+  "framework": "previousNext",
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
 }

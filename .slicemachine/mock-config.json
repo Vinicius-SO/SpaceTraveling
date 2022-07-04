@@ -2,7 +2,8 @@
   "slices": {
     "Post": {
       "default": {
-        "primary": {}
+        "primary": {},
+        "items": {}
       }
     }
   }
