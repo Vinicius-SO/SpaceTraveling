@@ -1,1 +1,46 @@
 // TODO
+.content{
+    width: 43.75rem;
+    margin: 0 auto;
+}
+.Post{
+    margin-bottom: 3rem;
+}
+.title{
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: var(--heading);
+    line-height: 34px;
+
+}
+.description{
+    font-size: 1.125rem;
+    color: var(--body);
+    margin:.5rem 0 1.5rem 0;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.date{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-size: 0.725rem;
+    color: var(--info);
+    margin: 0 1rem 0 0
+}
+.author{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-size: 0.725rem;
+    color: var(--info)
+}
+.button{
+    background: transparent;
+    border: transparent;
+    color: var(--highlight);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
