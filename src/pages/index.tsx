@@ -31,7 +31,9 @@ interface HomeProps {
 export default function Home() {
   return(
   <>
-    <Header/>
+    <div className={styles.header}>
+      <Header/>
+    </div>
     <main className={styles.content}>
       <div className={styles.Post}>
           <Link href="">
