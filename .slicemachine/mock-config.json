@@ -5,6 +5,14 @@
         "primary": {},
         "items": {}
       }
+    },
+    "Posts": {
+      "default": {
+        "primary": {}
+      }
     }
+  },
+  "_cts": {
+    "post": {}
   }
 }

@@ -292,6 +292,98 @@
           "extension": "js"
         },
         "screenshotPaths": {}
+      },
+      "posts": {
+        "library": "slices",
+        "id": "posts",
+        "name": "Posts",
+        "description": "Posts",
+        "model": {
+          "id": "posts",
+          "type": "SharedSlice",
+          "name": "Posts",
+          "description": "Posts",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Posts",
+              "primary": {},
+              "items": {
+                "heading": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Heading",
+                    "placeholder": ""
+                  }
+                },
+                "body": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Body",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "posts",
+            "items": [
+              {
+                "heading": "engage mission-critical supply-chains",
+                "body": [
+                  {
+                    "type": "paragraph",
+                    "text": "Culpa magna deserunt est. Labore non voluptate Lorem irure. Consequat ea laborum et labore nisi velit pariatur est eiusmod nulla aliquip in aute.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "heading": "syndicate cross-media ROI",
+                "body": [
+                  {
+                    "type": "paragraph",
+                    "text": "Velit cillum ex sunt aliquip.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "heading": "synergize 24/7 solutions",
+                "body": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nisi aute officia id enim labore aliqua amet fugiat magna tempor duis adipisicing.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {}
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Vinic\\OneDrive\\Documentos\\Coding\\ignate-aulas\\reactJS\\SpaceTraveling\\.slicemachine\\assets\\slices\\Posts\\default\\preview.png",
+            "width": 800,
+            "height": 166
+          }
+        }
       }
     }
   }

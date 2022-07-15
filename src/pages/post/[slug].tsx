@@ -55,16 +55,23 @@ export default function Post() {
     )
 }
 
-// export const getStaticPaths = async () => {
-//   const prismic = getPrismicClient({});
-//   const posts = await prismic.getByType(TODO);
+export const getStaticPaths = async () => {
+  // const prismic = getPrismicClient({});
+  // const posts = await prismic.getByType(TODO);
 
-//   // TODO
-// };
+  return {
+    paths: [],
+    fallback: 'blocking'
+}
+};
 
-// export const getStaticProps = async ({params }) => {
-//   const prismic = getPrismicClient({});
-//   const response = await prismic.getByUID(TODO);
+export const getStaticProps = async ({params }) => {
+  const prismic = getPrismicClient({});
+  const response = await prismic.getByUID('post', params.slug);
 
-//   // TODO
-// };
+  console.log(response)
+
+  return{
+    props:{}
+  }
+};

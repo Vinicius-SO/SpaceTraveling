@@ -24,7 +24,7 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.spec.tsx"
-  ],
+, "prismicio.js"  ],
   "exclude": [
     "node_modules"
   ]
