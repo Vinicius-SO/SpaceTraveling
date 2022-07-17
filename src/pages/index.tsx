@@ -169,7 +169,6 @@ export const getStaticProps: GetStaticProps = async () => {
 
   const postsResponse = await prismic.getByType('post', { pageSize: 5 });
 
-  console.log(postsResponse)
   const posts = postsResponse.results.map(post => {
 
     return {
@@ -181,13 +180,15 @@ export const getStaticProps: GetStaticProps = async () => {
         author: post.data.author
       }
     }
-
+    
   })
-
+  
   const postsPagination = {
     next_page: postsResponse.next_page,
     results: posts,
   }
+  
+  console.log(postsPagination)
 
   return {
     props: {
