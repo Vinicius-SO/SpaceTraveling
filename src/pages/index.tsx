@@ -91,7 +91,7 @@ export default function Home({postsPagination}:HomeProps) {
       <Header/>
     </div>
     <main className={styles.content}>
-      {/* <div className={styles.Post}>
+      <div className={styles.Post}>
         {posts.map(post => (
           <Link href="" key={post.uid}>
             <a>
@@ -105,7 +105,7 @@ export default function Home({postsPagination}:HomeProps) {
           </Link>
         ))}
           
-      </div> */}
+      </div>
 
       <div className={styles.Post}>
           <Link href="">
